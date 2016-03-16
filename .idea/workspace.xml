@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74891db6-38b3-4e96-8e71-b880b69d4f1c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogger/app/controllers/articles_controller.rb" afterPath="$PROJECT_DIR$/blogger/app/controllers/articles_controller.rb" />
-    </list>
+    <list default="true" id="74891db6-38b3-4e96-8e71-b880b69d4f1c" name="Default" comment="" />
     <ignored path="rails_project.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
