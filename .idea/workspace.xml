@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74891db6-38b3-4e96-8e71-b880b69d4f1c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogger/app/views/articles/index.html.erb" afterPath="$PROJECT_DIR$/blogger/app/views/articles/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogger/app/controllers/articles_controller.rb" afterPath="$PROJECT_DIR$/blogger/app/controllers/articles_controller.rb" />
     </list>
     <ignored path="rails_project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,20 +43,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="articles_controller.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="articles_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blogger/app/controllers/articles_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.7777777">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.18987341">
+              <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blogger/app/views/articles/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2967626">
+            <state vertical-scroll-proportion="-6.875">
               <caret line="11" column="73" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
               <folding />
             </state>
@@ -73,8 +73,8 @@
       <list>
         <option value="$PROJECT_DIR$/blogger/db/migrate/20160315201755_create_articles.rb" />
         <option value="$PROJECT_DIR$/blogger/config/routes.rb" />
-        <option value="$PROJECT_DIR$/blogger/app/controllers/articles_controller.rb" />
         <option value="$PROJECT_DIR$/blogger/app/views/articles/index.html.erb" />
+        <option value="$PROJECT_DIR$/blogger/app/controllers/articles_controller.rb" />
       </list>
     </option>
   </component>
@@ -84,8 +84,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="y" value="162" />
+    <option name="x" value="22" />
+    <option name="y" value="263" />
     <option name="width" value="1365" />
     <option name="height" value="677" />
   </component>
@@ -269,7 +269,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="162" width="1365" height="677" extended-state="1" />
+    <frame x="22" y="263" width="1365" height="677" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14725275" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -330,18 +330,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blogger/app/controllers/articles_controller.rb">
+    <entry file="file://$PROJECT_DIR$/blogger/app/views/articles/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.7777777">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state vertical-scroll-proportion="-6.875">
+          <caret line="11" column="73" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blogger/app/views/articles/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/blogger/app/controllers/articles_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2967626">
-          <caret line="11" column="73" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
+        <state vertical-scroll-proportion="0.18987341">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
           <folding />
         </state>
       </provider>
