@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74891db6-38b3-4e96-8e71-b880b69d4f1c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blogger/app/views/articles/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blogger/app/views/articles/edit.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogger/app/controllers/articles_controller.rb" afterPath="$PROJECT_DIR$/blogger/app/controllers/articles_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogger/app/views/articles/new.html.erb" afterPath="$PROJECT_DIR$/blogger/app/views/articles/new.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogger/app/views/articles/show.html.erb" afterPath="$PROJECT_DIR$/blogger/app/views/articles/show.html.erb" />
     </list>
     <ignored path="rails_project.iws" />
@@ -34,21 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="articles_controller.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blogger/app/controllers/articles_controller.rb">
+      <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blogger/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6509946">
-              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blogger/app/views/articles/show.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.5">
-              <caret line="4" column="95" selection-start-line="4" selection-start-column="95" selection-end-line="4" selection-end-column="95" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -65,9 +59,11 @@
         <option value="$PROJECT_DIR$/blogger/db/migrate/20160315201755_create_articles.rb" />
         <option value="$PROJECT_DIR$/blogger/config/routes.rb" />
         <option value="$PROJECT_DIR$/blogger/app/views/articles/index.html.erb" />
-        <option value="$PROJECT_DIR$/blogger/app/views/articles/new.html.erb" />
         <option value="$PROJECT_DIR$/blogger/app/helpers/articles_helper.rb" />
         <option value="$PROJECT_DIR$/blogger/app/views/articles/show.html.erb" />
+        <option value="$PROJECT_DIR$/blogger/app/views/articles/_form.html.erb" />
+        <option value="$PROJECT_DIR$/blogger/app/views/articles/new.html.erb" />
+        <option value="$PROJECT_DIR$/blogger/app/views/articles/edit.html.erb" />
         <option value="$PROJECT_DIR$/blogger/app/controllers/articles_controller.rb" />
       </list>
     </option>
@@ -78,8 +74,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="20" />
-    <option name="y" value="151" />
+    <option name="x" value="19" />
+    <option name="y" value="228" />
     <option name="width" value="1365" />
     <option name="height" value="677" />
   </component>
@@ -151,6 +147,10 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -173,10 +173,6 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="articles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -193,28 +189,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rails_project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rails_project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blogger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -285,7 +259,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="151" width="1365" height="677" extended-state="0" />
+    <frame x="19" y="228" width="1365" height="677" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14725275" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -346,18 +320,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blogger/app/views/articles/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.107913665">
-          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blogger/app/helpers/articles_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13562387">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogger/app/views/articles/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.125">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogger/app/views/articles/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.053956833">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogger/app/views/articles/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53956836">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogger/app/views/articles/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.053956833">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogger/app/controllers/articles_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10488246">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -370,18 +376,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blogger/app/views/articles/show.html.erb">
+    <entry file="file://$PROJECT_DIR$/blogger/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5">
-          <caret line="4" column="95" selection-start-line="4" selection-start-column="95" selection-end-line="4" selection-end-column="95" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogger/app/controllers/articles_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6509946">
-          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
